@@ -1,0 +1,10 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.12/schema.json",
+  "files": { "includes": ["**", "!**/node_modules"] },
+  "linter": {
+    "enabled": true,
+    "rules": { "recommended": false, "nursery": { "noFloatingPromises": "error" } }
+  },
+  "formatter": { "enabled": false },
+  "assist": { "enabled": false }
+}

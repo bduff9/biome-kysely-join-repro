@@ -1,0 +1,11 @@
+{
+  "name": "biome-kysely-join-repro",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "kysely": "0.28.17"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.12"
+  }
+}
